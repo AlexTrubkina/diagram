@@ -1,0 +1,18 @@
+.duration {
+    display: block;
+    margin-left: auto;
+    border-radius: 20px;
+    border: 2px solid #000AFF;
+    padding: 5px;
+    font-size: 1rem;
+    background: url("../../../../images/arrowDown.png") no-repeat;
+    background-position: right;
+    background-size: 15px;
+    appearance: none ;
+
+}
+
+.duration:focus {
+    outline: none;
+}
+

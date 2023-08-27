@@ -1,0 +1,26 @@
+.body {
+    background-color: #FF00F50D;
+    border-radius: 25px;
+    padding: 30px;
+}
+
+.xHalfaxis {
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    margin-left: 70px;
+}
+
+.xFullaxis {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 70px; 
+}
+
+.yaxis {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 10px;
+    
+}
