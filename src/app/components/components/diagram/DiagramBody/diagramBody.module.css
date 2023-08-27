@@ -6,7 +6,7 @@
 
 .xHalfaxis {
     display: flex;
-    gap: 50px;
+    gap: 70px;
     margin-top: 20px;
     margin-left: 70px;
 }
@@ -23,4 +23,16 @@
     flex-direction: column-reverse;
     gap: 10px;
     
+}
+
+.columns {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    gap: 35px;
 }

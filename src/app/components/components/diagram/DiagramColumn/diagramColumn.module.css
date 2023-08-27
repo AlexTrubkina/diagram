@@ -1,0 +1,25 @@
+.column {
+    background-color: #000AFF;
+    width: 10px;
+    border-radius: 3px;
+}
+
+.column:hover {
+    box-shadow: 0px 0px 10px 0px #000AFF;
+}
+
+.earning {
+    background-color: aquamarine;
+    border-radius: 5px;
+    padding: 5px;
+    position:absolute;
+    top: -35px;
+
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
