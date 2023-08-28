@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./diagramDuration.module.css";
+import { durationData } from "@/app/data/diagramData";
 
 const DiagramDuration = ({
     handleSelect,
@@ -12,9 +13,11 @@ const DiagramDuration = ({
             onChange={handleSelect}
             name="duration"
         >
-            <option value="month">За последний месяц</option>
-            <option value="year">За последний год</option>
-            <option value="halfYear">За последние 6 месяцев</option>
+            {Object.entries(durationData).map(([key, value]) => (
+                <option key={key} value={key}>
+                    {value}
+                </option>
+            ))}
         </select>
     );
 };

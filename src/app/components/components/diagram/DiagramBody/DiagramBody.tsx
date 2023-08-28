@@ -10,7 +10,7 @@ const DiagramBody = ({ duration }: { duration: String }): JSX.Element => {
             <div className={styles.container}>
                 <div className={styles.yaxis}>
                     {axisData.y.map((num) => (
-                        <div className={styles["yaxis-num"]}>{num}</div>
+                        <div key={num} className={styles["yaxis-num"]}>{num}</div>
                     ))}
                 </div>
                 <div className={styles.columns}>

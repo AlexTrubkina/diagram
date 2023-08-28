@@ -2,6 +2,7 @@
     background-color: #000AFF;
     width: 10px;
     border-radius: 3px;
+    transition: all 0.3s ease;
 }
 
 .column:hover {
@@ -23,3 +24,4 @@
     align-items: center;
     position: relative;
 }
+
